@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "frappe_pincode_serviceability_matrix"
+version = "1.0.0"
+description = "Frappe Pincode Serviceability Matrix - Official Frappe Framework App"
+authors = [{ name = "Shyamkumar Pandey", email = "shyampandey1104@gmail.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "frappe"
+]

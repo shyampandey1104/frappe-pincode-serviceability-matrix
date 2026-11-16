@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include serviceability *.css
+recursive-include serviceability *.csv
+recursive-include serviceability *.html
+recursive-include serviceability *.ico
+recursive-include serviceability *.js
+recursive-include serviceability *.json
+recursive-include serviceability *.md
+recursive-include serviceability *.png
+recursive-include serviceability *.py
+recursive-include serviceability *.svg
+recursive-include serviceability *.txt
+recursive-exclude serviceability *.pyc
